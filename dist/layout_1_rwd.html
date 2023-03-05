@@ -133,7 +133,13 @@
 
 
 <script>
-
+    let popupMenu = document.querySelector('.menu.popup');
+    if (popupMenu) {
+        popupMenu.addEventListener('click', () => {
+            let sw = document.querySelector('#mobile-menu-switch');
+            sw && sw.click();
+        });
+    }
 </script>
 
 </html>
