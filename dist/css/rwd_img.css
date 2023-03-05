@@ -126,19 +126,18 @@ a {
   display: inline-block;
 }
 
-.say-hi {
-  padding: 10px;
+.image-block {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
 }
-.say-hi::before {
-  content: "David ";
-  color: red;
-  font-size: 20px;
-  width: 200px;
-  height: 200px;
-  background: yellow;
-  display: inline-block;
+
+.fluid-image img {
+  width: 100%;
+  height: auto;
 }
-.say-hi::after {
-  content: " Afterrrrrrr";
-  color: blue;
-}/*# sourceMappingURL=css_pseduo_el.css.map */
+
+.fluid-image-max img {
+  max-width: 100%;
+  height: auto;
+}/*# sourceMappingURL=rwd_img.css.map */
