@@ -371,6 +371,8 @@ body {
   .join-form .join-form-content .content-wrap > div:first-child::before {
     border-right: 0;
     border-bottom: 3px dashed #fff;
+    right: unset;
+    top: unset;
     left: 20px;
     bottom: 0;
     width: calc(100% - 40px);
