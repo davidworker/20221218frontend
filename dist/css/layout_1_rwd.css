@@ -56,6 +56,9 @@ a {
 .form-control:focus::-moz-placeholder {
   color: rgb(204, 204, 204);
 }
+.form-control:focus:-ms-input-placeholder {
+  color: rgb(204, 204, 204);
+}
 .form-control:focus::placeholder {
   color: rgb(204, 204, 204);
 }
@@ -339,7 +342,7 @@ body {
   transform: rotate(-45deg);
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
   .mobile-icon {
     display: flex;
   }
@@ -414,5 +417,12 @@ body {
   }
   .join-form .join-form-content .content-wrap .right-side {
     width: 100%;
+  }
+  .flow::after {
+    left: 30px;
+  }
+  .flow .flow-item {
+    justify-content: flex-start;
+    padding-left: 12px;
   }
 }/*# sourceMappingURL=layout_1_rwd.css.map */
