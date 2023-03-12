@@ -425,4 +425,14 @@ body {
     justify-content: flex-start;
     padding-left: 12px;
   }
+  .flow .flow-item:nth-child(even) .flow-text {
+    right: unset;
+    left: 0;
+    margin-right: 0;
+    margin-left: 72px;
+    text-align: left;
+  }
+  .flow .flow-text {
+    left: 0;
+  }
 }/*# sourceMappingURL=layout_1_rwd.css.map */
